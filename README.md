@@ -13,3 +13,6 @@ This is a great tutorial that shows how to create import Google Maps 3D models i
 
 ## Help and Issues
 For any issues or help needed, please raise an issue in github. 
+
+## Credits
+Goes without saying all 3D models credit goes to Google Maps/Google Earth.
