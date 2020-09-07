@@ -1,0 +1,203 @@
+{
+    "asset" : {
+        "extensions" : {
+            "ASOBO_normal_map_convention" : {
+                "tangent_space_convention" : "DirectX"
+            }
+        },
+        "generator" : "Extended Khronos glTF Blender I/O v1.0.0",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "ASOBO_normal_map_convention",
+        "ASOBO_macro_light"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {},
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extensions" : {
+                "ASOBO_macro_light" : {
+                    "color" : [
+                        1,
+                        0,
+                        0.0014633957762271166
+                    ],
+                    "intensity" : 44.12999725341797,
+                    "cone_angle" : 360,
+                    "has_simmetry" : true,
+                    "flash_frequency" : 0,
+                    "flash_duration" : 0,
+                    "flash_phase" : 0,
+                    "rotation_speed" : 0,
+                    "day_night_cycle" : false
+                }
+            },
+            "extras" : {
+                "msfs_light_has_symmetry" : 1,
+                "msfs_light_flash_frequency" : 0,
+                "msfs_light_day_night_cycle" : 0
+            },
+            "name" : "Point",
+            "rotation" : [
+                0.6796079874038696,
+                0.11504341661930084,
+                0.06066734343767166,
+                0.7219539284706116
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Sphere",
+            "scale" : [
+                0.24352091550827026,
+                0.24352091550827026,
+                0.24352091550827026
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "emissiveFactor" : [
+                1,
+                0,
+                0
+            ],
+            "extras" : {
+                "msfs_material_mode" : 0,
+                "msfs_show_tint" : 0,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 0,
+                "msfs_show_metallic" : 0,
+                "msfs_show_normal" : 0,
+                "msfs_show_emissive" : 0,
+                "msfs_show_detail_albedo" : 0,
+                "msfs_show_detail_metallic" : 0,
+                "msfs_show_detail_normal" : 0,
+                "msfs_show_blend_mask" : 0,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 0,
+                "msfs_show_draworder" : 0,
+                "msfs_show_no_cast_shadow" : 0,
+                "msfs_show_double_sided" : 0,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 0,
+                "msfs_show_collision_material" : 0,
+                "msfs_show_road_material" : 0,
+                "msfs_show_ao_use_uv2" : 0,
+                "msfs_show_uv_clamp" : 0,
+                "msfs_show_alpha_cutoff" : 0,
+                "msfs_show_blend_threshold" : 0,
+                "msfs_color_emissive_mix" : [
+                    1,
+                    0,
+                    0.017641952261328697
+                ],
+                "msfs_color_albedo_mix" : [
+                    1,
+                    0,
+                    0.017641952261328697
+                ]
+            },
+            "name" : "Material",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1984,
+            "max" : [
+                1.000000238418579,
+                1,
+                1.0000003576278687
+            ],
+            "min" : [
+                -0.9999998211860657,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1984,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1984,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 2880,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 23808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15872,
+            "byteOffset" : 47616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5760,
+            "byteOffset" : 63488
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 69248,
+            "uri" : "BeaconLight.bin"
+        }
+    ]
+}

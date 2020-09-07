@@ -1,0 +1,58 @@
+{
+    "asset" : {
+        "extensions" : {
+            "ASOBO_normal_map_convention" : {
+                "tangent_space_convention" : "DirectX"
+            }
+        },
+        "generator" : "Extended Khronos glTF Blender I/O v1.0.0",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "ASOBO_normal_map_convention",
+        "ASOBO_macro_light"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {},
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extensions" : {
+                "ASOBO_macro_light" : {
+                    "color" : [
+                        1,
+                        0.9404062032699585,
+                        0.9404062032699585
+                    ],
+                    "intensity" : 46.32999801635742,
+                    "cone_angle" : 43.89999928640853,
+                    "has_simmetry" : true,
+                    "flash_frequency" : 0,
+                    "flash_duration" : 0,
+                    "flash_phase" : 0,
+                    "rotation_speed" : 0,
+                    "day_night_cycle" : false
+                }
+            },
+            "extras" : {
+                "msfs_light_has_symmetry" : 1,
+                "msfs_light_flash_frequency" : 0,
+                "msfs_light_day_night_cycle" : 0
+            },
+            "name" : "Point",
+            "rotation" : [
+                0.6796079874038696,
+                0.11504341661930084,
+                0.06066734343767166,
+                0.7219539284706116
+            ]
+        }
+    ]
+}
