@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+	<ModelInfo guid="{4630c93d-26c7-4f2a-a1dc-836ba2b42d7d}" version="1.1">
+		<LODS>
+			<LOD ModelFile="BeaconLightNew2_LOD00.gltf" minSize="128"/>
+			<LOD ModelFile="BeaconLightNew2_LOD01.gltf" minSize="64"/>
+			<LOD ModelFile="BeaconLightNew2_LOD02.gltf" minSize="32"/>
+			<LOD ModelFile="BeaconLightNew2_LOD03.gltf" minSize="16"/>
+			<LOD ModelFile="BeaconLightNew2_LOD04.gltf" minSize="8"/>
+			<LOD ModelFile="BeaconLightNew2_LOD05.gltf" minSize="4"/>
+			<LOD ModelFile="BeaconLightNew2_LOD06.gltf"/>
+		</LODS>
+	</ModelInfo>

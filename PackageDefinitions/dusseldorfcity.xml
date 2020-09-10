@@ -1,4 +1,4 @@
-<AssetPackage Name="dusseldorfcity" Version="0.1.0">
+<AssetPackage Name="dusseldorfcity" Version="0.2.0">
 	<ItemSettings>
 		<ContentType>SCENERY</ContentType>
 		<Title>Dusseldorf City Landmarks</Title>
@@ -15,8 +15,8 @@
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageDefinitions\dusseldorfcity\ContentInfo</AssetDir>
-			<OutputDir>ContentInfo\dusseldorfcity</OutputDir>
+			<AssetDir>PackageDefinitions\dusseldorfcity\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\dusseldorfcity\</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="mymodellib">
 			<Type>ArtProj</Type>
